@@ -32,11 +32,22 @@ in_file = open(from_file)
 
 #------------------Read Line by Line
 #indata = in_file.read()
+print("""----------------------------------------
+-----------------START------------------\n""")
+
+print(f'---------------Begin readline Example (read {from_file} line by line)\n')
 print(in_file.readline(), end='')
 print("boo")
 print(in_file.readline(), end='')
+print('---------------End readline Example\n')
 
 #Turn sentence into list of characters
+
+#------------------Dictionary Example
+print('---------------Dictionary Example\n')
+dict = {'A':'d', 'B':'r', 'C':'m'} #{} curly brackets make a 'Dictionary'
+print("Here is the thing related to 'B' in dictionary: ", dict['B'])
+print('---------------End Dictionary Example\n')
 
 #------------------Write line by line
 ##do this next^
