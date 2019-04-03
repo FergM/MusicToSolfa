@@ -1,5 +1,5 @@
 # MusicToSolfa
-Converts ABC music text file to 
+Converts ABC music text file to DoReMi format
 
 #Description of Files:
   *MusicToSolfa.py = Draft code,
